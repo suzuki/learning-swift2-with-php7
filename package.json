@@ -1,0 +1,15 @@
+{
+  "name": "learning-swift2-with-php7",
+  "version": "1.0.0",
+  "description": "Learning Swift2 with PHP7",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1"
+  }
+}

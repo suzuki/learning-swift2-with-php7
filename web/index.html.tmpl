@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./base.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1>Inquiry Form</h1>
+    <form method="GET" action="{{ action }}">
+      <div>
+        <label for="inquiry-email" class="form-label">Email:</label>
+        <input id="inquiry-email" type="text" name="email" class="form-text" value="{{ email }}" />
+      </div>
+      <div>
+        <label for="inquiry-title" class="form-label">Title:</label>
+        <input id="inquiry-title" type="text" name="title" class="form-text" value="{{ title }}" />
+      </div>
+      <div>
+        <label for="inquiry-message" class="form-label">Message:</label>
+        <textarea id="inquiry-message" name="message" class="form-textarea">{{ message }}</textarea>
+      </div>
+      <div>
+        <input type="hidden" name="next" value="confirm" />
+        <button id="inquiry-button" class="form-button">Confirm</button>
+      </div>
+    </form>
+  </body>
+</html>

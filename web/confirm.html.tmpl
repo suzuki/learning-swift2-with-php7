@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Confirm</title>
+    <link rel="stylesheet" href="./base.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1>Inquiry Form</h1>
+    <form method="GET" action="{{ action }}">
+      <div>
+        <label for="inquiry-email" class="form-label">Email:</label>
+        <span class="form-confirm-text">{{ email }}</span>
+      </div>
+      <div>
+        <label for="inquiry-title" class="form-label">Title:</label>
+        <span class="form-confirm-text">{{ title }}</span>
+      </div>
+      <div>
+        <label for="inquiry-message" class="form-label">Message:</label>
+        <span class="form-confirm-text">{{ message }}</span>
+      </div>
+      <div>
+        <input type="hidden" name="next" value="complete" />
+        <button id="inquiry-button" class="form-button">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

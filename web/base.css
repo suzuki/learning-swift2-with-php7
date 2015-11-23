@@ -1,0 +1,28 @@
+.form-label {
+  display: inline-block;
+  width: 160px;
+  padding: 4px;
+  text-align: right;
+  vertical-align: top;
+}
+.form-text {
+  padding: 4px;
+  width: 300px;
+}
+.form-textarea {
+  padding: 4px;
+  width: 300px;
+  height: 200px;
+}
+.form-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 260px;
+}
+.form-confirm-text {
+  display: inline-block;
+  width: 300px;
+  padding: 4px;
+}
